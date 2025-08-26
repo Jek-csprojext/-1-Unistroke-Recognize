@@ -1,5 +1,4 @@
 # 1-Unistroke-Recognize
-## 介紹
 以下範例我是使用 Python 來製作,並使用 tkinter 及 math 的函式庫。main.py 為主程式,同時去辨識不同 samplesize 的 recognizer 程式檔(dollar_16.py,dollar_128.py),且我辨識的演算法為黃金比例搜索法（Golden Section Search）。
 
 ## 辨識結果
@@ -19,6 +18,6 @@
 另外,我也嘗試寫出不同書寫角度的數字來測試,皆可以得出正確的結果,原因在於我在程式檔裡有將角度標準化的函數(function rotate_by),以致辨識不受角度影響。
 
 <p align="center">
-  <img src="./image/img_4.png" alt="Demo" width="40" height="300"/><br>
+  <img src="./image/img_4.png" alt="Demo" width="400" height="300"/><br>
   圖三、以不同角度寫出數字
 </p>
